@@ -1,5 +1,5 @@
 body {
-    padding:20px;
+    padding-top:20px;
     background-color: gray;
 }
 #container-menu {
@@ -52,6 +52,9 @@ body {
 #personnal-photo {
     border-radius:25px;
 }
+#full-name {
+	text-align:center;
+}
 .section {
     margin:10px;
 }
@@ -60,4 +63,53 @@ body {
 }
 .section-body {
     text-align:justify;
+}
+/**/
+@media (max-width: 576px) {
+	#container-menu {
+		display:none;
+	}
+	#container-main {
+		border-top-right-radius:30px;
+	}
+}
+@media (min-width: 576px) {
+	#container-menu {
+		display:none;
+	}
+	#container-main {
+		border-top-right-radius:30px;
+	}
+}
+@media (min-width: 768px) {
+	#container-menu {
+		display:none;
+	}
+	#container-main {
+		border-top-right-radius:30px;
+	}
+}
+@media (min-width: 992px) {
+	#container-menu {
+		display:none;
+	}
+	#container-main {
+		border-top-right-radius:30px;
+	}
+}
+@media (min-width: 1200px) {
+	#container-menu {
+		display:inherit;
+	}
+	#container-main {
+		border-top-right-radius:0px;
+	}
+}
+@media (min-width: 1400px) {
+	#container-menu {
+		display:inherit;
+	}
+	#container-main {
+		border-top-right-radius:0px;
+	}
 }
